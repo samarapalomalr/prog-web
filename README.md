@@ -3,12 +3,14 @@
 **Instituição:** Universidade Federal de Ouro Preto (UFOP)  
 **Curso:** Ciência da Computação  
 **Disciplina:** Programação Web  
+**Professora:** Aline  
+**Aluna:** Samara Paloma Lopes Augusto Ribeiro  
 
 Repositório destinado ao armazenamento das atividades, roteiros práticos e projetos desenvolvidos ao longo da disciplina.
 
 ---
 
-## 📖 Ementa ##
+## 📖 Ementa
 - Introdução à Internet, World Wide Web e sociedade da informação.
 - Aplicações Web: evolução e arquitetura.
 - Linguagens de marcação (HTML/HTML5, XML) e folhas de estilos (CSS).
@@ -33,6 +35,13 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 - [ ] **Roteiro 08:** Criando modelos e relacionamento muitos-para-muitos com Django
 - [ ] **Roteiro 09:** Formulário HTML e o ciclo CRUD com Django
 - [ ] **Roteiro 10:** Editar e remover: finalizando o ciclo CRUD com Django
+
+---
+
+## 📸 Demonstração do Sistema em Execução
+
+### Roteiro 05 - Aplicação Django Rodando
+![Aplicação Django em execução](docs/images/execucao-django.png)
 
 ---
 
