@@ -24,10 +24,10 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 - [x] **Roteiro 01:** Primeiros passos com CSS
 - [x] **Roteiro 02:** Minha primeira página pessoal
 - [x] **Roteiro 03:** Estilizando minha página pessoal (Estilos e Seletores)
-- [ ] **Roteiro 04:** Introdução ao Tailwind CSS
+- [x] **Roteiro 04:** Introdução ao Tailwind CSS
 
 ### Backend (Django)
-- [ ] **Roteiro 05:** Introdução ao Django (Projeto Inicial)
+- [x] **Roteiro 05:** Introdução ao Django (Projeto Inicial)
 - [ ] **Roteiro 06:** Criando modelos e rotas com Django
 - [ ] **Roteiro 07:** Criando modelos e relacionamento com Django
 - [ ] **Roteiro 08:** Criando modelos e relacionamento muitos-para-muitos com Django
