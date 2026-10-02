@@ -1,0 +1,60 @@
+/* Passo 2: Estilizando o Body */
+body {
+    background-color: #f5f5f5;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Passo 3: Criando a área central */
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Passo 4: Estilizando o título */
+  .titulo {
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  /* Passo 5: Estilizando a imagem */
+  .foto {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    padding: 5px;
+    display: block;
+    margin: auto;
+  }
+  
+  /* Passo 6: Estilizando o nome */
+  #nome {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Passo 7: Estilizando subtítulos */
+  .subtitulo {
+    color: #2c3e50;
+  }
+  
+  /* Passo 8: Estilizando listas */
+  .lista {
+    background-color: #ecf0f1;
+    padding: 15px 15px 15px 35px;
+    border-radius: 8px;
+  }
+  
+  /* Passo 9: Estilizando elementos internos */
+  .lista li {
+    margin-bottom: 10px;
+  }
+  
+  /* Passo 10: Criando efeito Hover */
+  .lista li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+  }
