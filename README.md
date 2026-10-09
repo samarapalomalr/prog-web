@@ -41,10 +41,10 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 ## Demonstração do Sistema em Execução
 
 ### Roteiro 05 - Aplicação Django Rodando (Parte 1)
-![Aplicação Django em execução - Parte 1](docs/images/DemoDjangoTailwindParte1.png)
+![Aplicação Django em execução - Parte 1](backend/demo-django/docs/images/DemoDjangoTailwindParte1.png)
 
 ### Roteiro 06 - Criando Modelos e Rotas com Django (Parte 2)
-![Aplicação Django em execução - Parte 2](docs/images/DemoDjangoTailwindParte2.png)
+![Aplicação Django em execução - Parte 2](backend/demo-django/docs/images/DemoDjangoTailwindParte2.png)
 
 ---
 
