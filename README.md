@@ -25,3 +25,11 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ### Roteiro 06 - Criando Modelos e Rotas com Django (Parte 2)
 ![Aplicação Django em execução - Parte 2](backend/demo-django/docs/images/DemoDjangoTailwindParte2.png)
+
+---
+
+## 🛠️ Tecnologias
+- HTML5 / CSS3
+- Tailwind CSS
+- Python / Django
+- Git & GitHub
