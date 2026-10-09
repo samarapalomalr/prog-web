@@ -1,4 +1,4 @@
-# Programação Web 🌐
+# Programação Web 
 
 **Instituição:** Universidade Federal de Ouro Preto (UFOP)  
 **Curso:** Ciência da Computação  
@@ -10,6 +10,16 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ---
 
+## Ementa
+- Introdução à Internet, World Wide Web e sociedade da informação.
+- Aplicações Web: evolução e arquitetura.
+- Linguagens de marcação (HTML/HTML5, XML) e folhas de estilos (CSS).
+- Programação do lado do cliente (Tailwind CSS, frontend).
+- Abordagens e tecnologias do lado do servidor (Python & Framework Django - MTV).
+- Padrões de projeto, requisitos de qualidade (usabilidade, desempenho, acessibilidade) e serviços Web.
+
+---
+
 ## 📍 Roteiros Práticos
 
 ### Backend (Django)
@@ -18,7 +28,7 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ---
 
-## 📸 Demonstração do Sistema em Execução
+## Demonstração do Sistema em Execução
 
 ### Roteiro 05 - Aplicação Django Rodando (Parte 1)
 ![Aplicação Django em execução - Parte 1](backend/demo-django/docs/images/DemoDjangoTailwindParte1.png)
