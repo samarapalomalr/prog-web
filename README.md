@@ -30,7 +30,7 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ### Backend (Django)
 - [x] **Roteiro 05:** Introdução ao Django (Projeto Inicial)
-- [ ] **Roteiro 06:** Criando modelos e rotas com Django
+- [x] **Roteiro 06:** Criando modelos e rotas com Django
 - [ ] **Roteiro 07:** Criando modelos e relacionamento com Django
 - [ ] **Roteiro 08:** Criando modelos e relacionamento muitos-para-muitos com Django
 - [ ] **Roteiro 09:** Formulário HTML e o ciclo CRUD com Django
@@ -38,10 +38,13 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ---
 
-## 📸 Demonstração do Sistema em Execução
+## Demonstração do Sistema em Execução
 
 ### Roteiro 05 - Aplicação Django Rodando (Parte 1)
-![Aplicação Django em execução - Parte 1](https://raw.githubusercontent.com/samarapalomalr/prog-web/bcc481-django-parte1/backend/demo-django/docs/images/DemoDjangoTailwindParte1.png)
+![Aplicação Django em execução - Parte 1](backend/demo-django/docs/images/DemoDjangoTailwindParte1.png)
+
+### Roteiro 06 - Criando Modelos e Rotas com Django (Parte 2)
+![Aplicação Django em execução - Parte 2](backend/demo-django/docs/images/DemoDjangoTailwindParte2.png)
 
 ---
 
