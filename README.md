@@ -1,4 +1,4 @@
-# Programação Web 🌐
+# Programação Web 
 
 **Instituição:** Universidade Federal de Ouro Preto (UFOP)  
 **Curso:** Ciência da Computação  
@@ -10,7 +10,7 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ---
 
-## 📖 Ementa
+## Ementa
 - Introdução à Internet, World Wide Web e sociedade da informação.
 - Aplicações Web: evolução e arquitetura.
 - Linguagens de marcação (HTML/HTML5, XML) e folhas de estilos (CSS).
@@ -21,12 +21,6 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 ---
 
 ## 📍 Roteiros Práticos
-
-### Frontend
-- [x] **Roteiro 01:** Primeiros passos com CSS
-- [x] **Roteiro 02:** Minha primeira página pessoal
-- [x] **Roteiro 03:** Estilizando minha página pessoal (Estilos e Seletores)
-- [x] **Roteiro 04:** Introdução ao Tailwind CSS
 
 ### Backend (Django)
 - [x] **Roteiro 05:** Introdução ao Django (Projeto Inicial)

@@ -1,0 +1,24 @@
+# Programação Web
+
+
+[Roteiro — Primeiros passos com CSS](roteiro-primeiros-passos-css.md)
+
+[Roteiro — Minha primeira página pessoal](roteiro-minha-primeira-home-page.md)
+
+[Roteiro — Estilizando minha página pessoal](roteiro-estilos-e-seletores.md)
+
+[Roteiro — Introdução ao Tailwind CSS](roteiro-tailwind.md)
+
+[Roteiro — Introdução ao DJango](roteiro-django-projeto-inicial.md)
+
+[Roteiro — Criando modelos e rotas com DJango](roteiro-django-projeto-parte-2.md)
+
+[Roteiro — Criando modelos e relacionamento com DJango](roteiro-django-projeto-parte-3.md)
+
+[Roteiro — Criando modelos e relacionamento muitos-para-muitos com DJango](roteiro-django-projeto-parte-4.md)
+
+[Roteiro — Formulário HTML e o ciclo CRUD com Django](roteiro-django-projeto-parte-5.md)
+
+[Roteiro — Editar e remover: finalizando o ciclo CRUD com Django](roteiro-django-projeto-parte-6.md)
+
+

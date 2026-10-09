@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Django + Tailwind</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900 min-h-screen text-slate-100">
+<body class="bg-slate-900 text-slate-100 min-h-screen">
 
     <header class="container mx-auto px-6 py-12">
         <nav class="flex items-center justify-between">
@@ -14,7 +14,10 @@
                 <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></span>
                 <span class="font-mono text-sm text-slate-300">demo-django</span>
             </div>
-            <a href="/admin/" class="text-sm text-slate-300 hover:text-white transition">/admin</a>
+            <div class="flex gap-4 text-sm text-slate-300">
+                <a href="/sobre/" class="hover:text-white transition">/sobre</a>
+                <a href="/admin/" class="hover:text-white transition">/admin</a>
+            </div>
         </nav>
     </header>
 
@@ -24,8 +27,8 @@
                 Aula de Programação Web
             </span>
             <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
-                Olá, <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400">Django</span> +
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-indigo-400">Tailwind</span>!
+                Olá, <span class="text-indigo-400">Django</span> +
+                <span class="text-emerald-400">Tailwind</span>!
             </h1>
             <p class="text-lg text-slate-300 mb-10 leading-relaxed">
                 Este é um projeto de demonstração simples, rodando em container Docker, com banco SQLite local
@@ -34,24 +37,24 @@
         </section>
 
         <section class="grid md:grid-cols-3 gap-6 mb-16">
-            <article class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-6 hover:bg-white/10 transition">
+            <article class="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6">
                 <div class="text-3xl mb-3">🐍</div>
                 <h2 class="text-xl font-semibold mb-2">Django</h2>
                 <p class="text-slate-400 text-sm">Framework web em Python, "batteries included" — vem com ORM, admin e tudo mais.</p>
             </article>
-            <article class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-6 hover:bg-white/10 transition">
+            <article class="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6">
                 <div class="text-3xl mb-3">🎨</div>
                 <h2 class="text-xl font-semibold mb-2">Tailwind CSS</h2>
                 <p class="text-slate-400 text-sm">Utility-first CSS — você compõe estilos direto no HTML, sem inventar nomes de classe.</p>
             </article>
-            <article class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-6 hover:bg-white/10 transition">
+            <article class="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6">
                 <div class="text-3xl mb-3">🐳</div>
                 <h2 class="text-xl font-semibold mb-2">Docker Compose</h2>
                 <p class="text-slate-400 text-sm">Um único <code class="font-mono bg-slate-800 px-1 rounded">docker compose up</code> e o ambiente está pronto.</p>
             </article>
         </section>
 
-        <section class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-8 max-w-3xl">
+        <section class="bg-slate-800/50 border border-slate-700/50 rounded-xl p-8 max-w-3xl">
             <h2 class="text-2xl font-bold mb-4">Mensagens do banco de dados</h2>
             <p class="text-slate-400 text-sm mb-6">
                 Os itens abaixo são lidos do SQLite. Adicione novos pelo
@@ -64,6 +67,7 @@
                         <li class="border-l-2 border-emerald-400 pl-4 py-1">
                             <h3 class="font-semibold">{{ m.titulo }}</h3>
                             <p class="text-sm text-slate-300">{{ m.conteudo }}</p>
+                            <span class="text-xs text-slate-400">por {{ m.autor }} · </span>
                             <span class="text-xs text-slate-500">{{ m.criada_em|date:"d/m/Y H:i" }}</span>
                         </li>
                     {% endfor %}
