@@ -22,19 +22,9 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 
 ## 📍 Roteiros Práticos
 
-### Frontend
-- [x] **Roteiro 01:** Primeiros passos com CSS
-- [x] **Roteiro 02:** Minha primeira página pessoal
-- [x] **Roteiro 03:** Estilizando minha página pessoal (Estilos e Seletores)
-- [x] **Roteiro 04:** Introdução ao Tailwind CSS
-
 ### Backend (Django)
 - [x] **Roteiro 05:** Introdução ao Django (Projeto Inicial)
 - [x] **Roteiro 06:** Criando modelos e rotas com Django
-- [ ] **Roteiro 07:** Criando modelos e relacionamento com Django
-- [ ] **Roteiro 08:** Criando modelos e relacionamento muitos-para-muitos com Django
-- [ ] **Roteiro 09:** Formulário HTML e o ciclo CRUD com Django
-- [ ] **Roteiro 10:** Editar e remover: finalizando o ciclo CRUD com Django
 
 ---
 
