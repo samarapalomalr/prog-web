@@ -25,6 +25,10 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 ### Backend (Django)
 - [x] **Roteiro 05:** Introdução ao Django (Projeto Inicial)
 - [x] **Roteiro 06:** Criando modelos e rotas com Django
+- [ ] **Roteiro 07:** Criando modelos e relacionamento com Django
+- [ ] **Roteiro 08:** Criando modelos e relacionamento muitos-para-muitos com Django
+- [ ] **Roteiro 09:** Formulário HTML e o ciclo CRUD com Django
+- [ ] **Roteiro 10:** Editar e remover: finalizando o ciclo CRUD com Django
 
 ---
 
