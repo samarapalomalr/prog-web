@@ -1,9 +1,23 @@
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Ambientes virtuais Python
 .venv/
 venv/
-db.sqlite3
+ENV/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Banco de dados e logs locais
+*.sqlite3
 *.log
+
+# Arquivos do sistema operacional e IDEs
 .DS_Store
+.vscode/
+.idea/
+
+# Node / Frontend
+node_modules/
+.npm/
