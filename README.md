@@ -26,26 +26,22 @@ Repositório destinado ao armazenamento das atividades, roteiros práticos e pro
 - [x] **Roteiro 05:** Introdução ao Django (Projeto Inicial)
 - [x] **Roteiro 06:** Criando modelos e rotas com Django
 - [x] **Roteiro 07:** Criando modelos e relacionamento com Django
+- [x] **Roteiro 08:** Criando modelos e relacionamento muitos-para-muitos com Django
 
 ---
 
 ## Demonstração do Sistema em Execução
 
-### Roteiro 05 - Aplicação Django Rodando (Parte 1)
-![Aplicação Django em execução - Parte 1](backend/demo-django/docs/images/DemoDjangoTailwindParte1.png)
 
-### Roteiro 06 - Criando Modelos e Rotas com Django (Parte 2)
-![Aplicação Django em execução - Parte 2](backend/demo-django/docs/images/DemoDjangoTailwindParte2.png)
+### Roteiro 08 - Relacionamento Muitos-para-Muitos com Django (Parte 4)
 
-### Roteiro 07 - Criando Modelos e Relacionamento com Django (Parte 3)
+Nesta parte foi criado o model `Tag` e o relacionamento N:N com `Mensagem` (`ManyToManyField`), com registro no painel administrativo (seletor `filter_horizontal` e filtro por tags), migration aplicada, dados inseridos pelo shell do Django e exibição das tags na página inicial.
 
-Nesta parte foi criado o model `Categoria`, ligado a `Mensagem` por um relacionamento 1:N (`ForeignKey`), com registro no painel administrativo (incluindo filtro por categoria), migration aplicada e exibição da categoria na página inicial.
+**Edição de mensagem com tags no painel administrativo**
+![Painel administrativo com tags - Parte 4](backend/demo-django/docs/images/DemoDjangoTailwindParte4Admin.png)
 
-**Painel administrativo com Categorias e Mensagens**
-![Painel administrativo - Parte 3](backend/demo-django/docs/images/DemoDjangoTailwindParte3Admin.png)
-
-**Página inicial exibindo as categorias das mensagens**
-![Aplicação Django em execução - Parte 3](backend/demo-django/docs/images/DemoDjangoTailwindParte3.png)
+**Página inicial exibindo categorias e tags**
+![Aplicação Django em execução - Parte 4](backend/demo-django/docs/images/DemoDjangoTailwindParte4.png)
 
 ---
 
