@@ -66,13 +66,23 @@
                     {% for m in mensagens %}
                         <li class="border-l-2 border-emerald-400 pl-4 py-1">
                             <h3 class="font-semibold">{{ m.titulo }}</h3>
-                            {# NOVO: selo da categoria (só aparece se a mensagem tiver categoria) #}
+                            {# Parte 3: selo da categoria (só aparece se a mensagem tiver categoria) #}
                             {% if m.categoria %}
                                 <span class="inline-block px-2 py-0.5 mt-1 bg-indigo-500/20 text-indigo-300 text-xs rounded-full">
                                     {{ m.categoria.nome }}
                                 </span>
                             {% endif %}
                             <p class="text-sm text-slate-300">{{ m.conteudo }}</p>
+                            {# NOVO (Parte 4): tags da mensagem (só aparece se houver alguma) #}
+                            {% if m.tags.all %}
+                                <div class="flex flex-wrap gap-1 mt-1">
+                                    {% for tag in m.tags.all %}
+                                        <span class="inline-block px-2 py-0.5 bg-emerald-500/15 text-emerald-300 text-xs rounded">
+                                            #{{ tag.nome }}
+                                        </span>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
                             <span class="text-xs text-slate-400">por {{ m.autor }} · </span>
                             <span class="text-xs text-slate-500">{{ m.criada_em|date:"d/m/Y H:i" }}</span>
                         </li>
